@@ -1,14 +1,12 @@
-from item import * #WE COULD SPECIFY THE CLASS TOO ... BUT IT'S COOL I GUESS
-from phone import *
+from item import * # WE COULD SPECIFY THE CLASS TOO ... BUT IT'S COOL I GUESS
 
-    
-phone1 = Phone("jscPhonev10" , 500 ,5 ,1)
-phone2 = Phone("jscPhonev20" , 700 ,5)
-
-print(Item.all)
-print(Phone.all)
+item1 = Item("MyItem" , 750)
+item1.name = "OtherItem"
+item1.__price = 100 
 
 
 
+
+# print(f"the item1 price : {item1.price}")
 
 
